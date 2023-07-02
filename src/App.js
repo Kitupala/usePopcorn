@@ -72,6 +72,7 @@ export default function App() {
               <WatchedMovieList
                 watched={watched}
                 onDeleteWatched={handleDeleteWatched}
+                onHandleSelectMovie={handleSelectMovie}
               />
             </>
           )}
